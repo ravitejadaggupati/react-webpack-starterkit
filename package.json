@@ -1,0 +1,43 @@
+{
+  "name": "react-webpack-starterkit",
+  "version": "1.0.0",
+  "description": "A extremely basic React/Webpack starter kit. Comes with the bare necesseties required to run React with WebPack as the module loader.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --devtool eval --progress --colors --content-base build",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravitejadaggupati/react-webpack-starterkit.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "react starter kit",
+    "webpack starter kit"
+  ],
+  "author": "Raviteja Daggupati <raviteja.daggupati@gmail.com> (http://supercode.info)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravitejadaggupati/react-webpack-starterkit/issues"
+  },
+  "homepage": "https://github.com/ravitejadaggupati/react-webpack-starterkit#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
